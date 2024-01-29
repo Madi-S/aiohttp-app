@@ -1,7 +1,8 @@
 import aiohttp
-from aiohttp_jinja2 import template
 from sqlalchemy import select
 from sqlalchemy.sql import text
+from aiohttp_jinja2 import template
+
 from .. import db
 
 

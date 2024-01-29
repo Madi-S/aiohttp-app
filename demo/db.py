@@ -2,6 +2,7 @@ from sqlalchemy import(
     Table, Text, Integer, VARCHAR, MetaData, Column
 )
 
+
 __all__ = {'post', }
 
 meta = MetaData()

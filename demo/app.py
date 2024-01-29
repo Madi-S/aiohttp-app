@@ -1,9 +1,10 @@
 import jinja2
-import aiohttp_jinja2
 import asyncpgsa
+import aiohttp_jinja2
 from aiohttp import web
 
 from .routes import setup_routes
+
 
 # Function that returns web application with all setups
 async def create_app(config: dict):

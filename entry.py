@@ -4,6 +4,7 @@ import asyncio
 from demo import create_app
 from demo.settings import load_config
 
+
 try:
     import uvloop
     asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
